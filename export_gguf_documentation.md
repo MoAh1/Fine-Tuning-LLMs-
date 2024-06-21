@@ -44,12 +44,13 @@ base_model_load = AutoModelForCausalLM.from_pretrained(
 
 ## Load the Fine-Tuned Model
 
+Loading the fine-tuned weights using the checkpoint saved in the local drive.
 
 ```python
 from peft import PeftModel
 ft_model = PeftModel.from_pretrained(base_model_load, '/checkpoint475')
 ```
-This code loads the fine-tuned model using the checkpoint saved in your drive.
+
 
 ```python
 fine_tuned_model = ft_model.merge_and_unload()
@@ -59,7 +60,7 @@ fine_tuned_model = ft_model.merge_and_unload()
 ```python
 fine_tuned_model.save_pretrained("./finetunedmodel_finall")
 ```
-This saves the fine-tuned model locally in a specified directory.
+This saves the fine-tuned model locally in the finetunedmodel_finall directory.
 
 ## Save the Tokenizer 
 ```python
