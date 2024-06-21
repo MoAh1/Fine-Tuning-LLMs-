@@ -42,7 +42,7 @@ base_model_load = AutoModelForCausalLM.from_pretrained(
 ```
 
 
-## Load the Fine-Tuned Model
+## Load the Fine-Tuned Weights
 
 Loading the fine-tuned weights using the checkpoint saved in the local drive.
 
