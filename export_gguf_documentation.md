@@ -1,7 +1,7 @@
 
 # Exporting a Fine-Tuned Model as a GGUF File
 
-This guide explains the steps to export a fine-tuned model as a GGUF file. It assumes that you have already fine-tuned a model and saved its fine-tuned weights.
+This guide explains the steps to export a fine-tuned model as a GGUF file. It assumes that you have already fine-tuned a model and saved its weights.
 
 ## Install Required Packages
 ```python
