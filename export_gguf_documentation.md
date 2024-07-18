@@ -103,7 +103,7 @@ This installs the Python dependencies required by `llama.cpp`.
 
 ## Convert the Model to GGUF Format
 ```python
-!python convert-hf-to-gguf.py finetunedmodel_finall/
+!python convert_hf_to_gguf.py finetunedmodel_finall/
 ```
 This converts the fine-tuned model to the GGUF format using the `convert-hf-to-gguf.py` script.
 
